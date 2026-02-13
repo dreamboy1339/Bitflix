@@ -24,3 +24,11 @@ nav {
   align-items: center;
   padding: 10px 0;
 }
+.lang {
+}
+.lang i:nth-child(1) {
+  margin-right: 8px;
+}
+.lang i:nth-child(2) {
+  margin-left: 5px;
+}
