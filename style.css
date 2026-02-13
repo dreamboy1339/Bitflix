@@ -37,20 +37,27 @@ nav {
   align-items: center;
   padding: 10px 0;
 }
-.lang {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: #fff;
-  padding: 10px;
-  border: 0;
-  border-radius: 4px;
+nav .logo {
+  font-size: 32px;
+  color: #db0001;
+  cursor: pointer;
 }
-div button {
+nav button {
   border: 0;
+  outline: 0;
+  border-radius: 5px;
   background-color: #db0001;
   color: #fff;
-  padding: 10px;
+  padding: 10px 24px;
   margin-left: 10px;
-  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.lang {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: transparent;
 }
 .lang i:nth-child(1) {
   margin-right: 8px;
@@ -58,7 +65,24 @@ div button {
 .lang i:nth-child(2) {
   margin-left: 5px;
 }
-
+.header-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 60px;
+  line-height: 1.4;
+  font-weight: 600;
+  max-width: 650px;
+  margin-bottom: 20px;
+}
+.header-content h3 {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
 /* Content area */
 .add-mail {
   background-color: #fff;
