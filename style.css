@@ -24,6 +24,21 @@ nav {
   align-items: center;
   padding: 10px 0;
 }
+.lang {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+}
+div button {
+  border: 0;
+  background-color: #db0001;
+  color: #fff;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
 .lang i:nth-child(1) {
   margin-right: 8px;
 }
